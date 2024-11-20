@@ -1,0 +1,67 @@
+@import url(https://fonts.google.com/specimen/Sora?query=sora);
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    box-shadow: 5px 5px 10px #E5EAF0;
+    border-radius: 16px;
+
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+
+
+img {
+    max-width: 1fr;
+    max-height: 152px;
+    border-radius: 10px;
+    margin: 16px;
+}
+
+.tag {
+    display: inline-block;
+    align-self: baseline;
+    
+    font-family: "Sora";
+    font-size: 10px;
+    line-height: 0.625rem;
+    color: #7C19EE;
+    background-color: #F2EAFD;
+
+    border-radius: 10px;
+
+    padding: 6px 16px;
+    margin: 0px 16px;
+}
+
+.cardTitle {
+    font-family: "Sora";
+    font-weight: 18px;
+    line-height: 1.125rem;
+    color: #20293A;
+    margin: 16px 16px 6px 16px;
+    
+}
+
+.description {
+    font-family: "Sora";
+    font-size: 14px;
+    line-height: 0.875rem;
+    color: #394150;
+    margin: 0px 16px 20px 16px;
+    
+}
+
+.writer {
+    border-top: solid #E5EAF0 ;
+    font-family: "Sora";
+    font-size: 12px;
+    line-height: 0.75rem;
+    color: #394150;
+    margin: 0px 16px 20px 16px;
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+}
